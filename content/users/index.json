@@ -1,11 +1,20 @@
 {
   "users": [
     {
-      "name": "Tina User",
+      "name": "Tina User ",
       "email": "user@tina.io",
       "username": "tinauser",
       "password": {
-        "value": "tinarocks",
+        "value": "test",
+        "passwordChangeRequired": true
+      }
+    },
+    {
+      "name": "Tina User ",
+      "email": "user@tina.io",
+      "username": "danilo",
+      "password": {
+        "value": "danilo",
         "passwordChangeRequired": true
       }
     }

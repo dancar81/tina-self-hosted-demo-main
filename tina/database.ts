@@ -1,5 +1,4 @@
 import { createDatabase, createLocalDatabase } from "@tinacms/datalayer";
-import { RedisLevel } from "upstash-redis-level";
 import { GitHubProvider } from "tinacms-gitprovider-github";
 import { MongodbLevel } from "mongodb-level"
 
@@ -36,14 +35,7 @@ export default isLocal
         repo,
         token,
       }),
-      /*databaseAdapter: new RedisLevel<string, Record<string, any>>({
-        redis: {
-          url:
-            (process.env.KV_REST_API_URL as string) || "http://localhost:8079",
-          token: (process.env.KV_REST_API_TOKEN as string) || "example_token",
-        },
-        debug: process.env.DEBUG === "true" || false,
-      }),*/
+    
       databaseAdapter: mongodbLevelStore,
       namespace: branch,
     });
