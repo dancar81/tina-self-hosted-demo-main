@@ -1,5 +1,5 @@
 ---
-header: Get Started by editing app/page/tsx test test git
+header: Get Started by editing app/page/tsx test
 logo:
   url: /next.svg
   alt: NextJS
