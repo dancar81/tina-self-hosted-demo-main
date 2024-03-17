@@ -1,5 +1,5 @@
 ---
-header: Get Started by editing app/page/tsxk danilooooooo carizziiiiiiiiii wdwdwd
+header: Get Started by editing app/page/tsxk danilooooooo carizziiiiiiiiii wdwdwd vediamo se funziona
 logo:
   url: /next.svg
   alt: NextJS
