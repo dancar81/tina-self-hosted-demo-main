@@ -1,5 +1,5 @@
 ---
-header: Get Started by editing app/page/tsx test git
+header: Get Started by editing app/page/tsx
 logo:
   url: /next.svg
   alt: NextJS
@@ -18,3 +18,4 @@ links:
     url: 'https://vercel.com/new?utm_source=create-next-app'
 ---
 
+body
