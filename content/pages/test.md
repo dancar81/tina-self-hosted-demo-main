@@ -1,9 +1,9 @@
 ---
 header: test
 links:
-  - header: /test
-    description: /test
-    url: /test
+  - header: 'http://localhost:3000/test'
+    description: 'http://localhost:3000/test'
+    url: 'http://localhost:3000/test'
 ---
 
 test
