@@ -1,7 +1,9 @@
 ---
 header: test
 links:
-  - url: /test
+  - header: /test
+    description: /test
+    url: /test
 ---
 
 test
