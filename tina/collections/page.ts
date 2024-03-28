@@ -9,20 +9,20 @@ export const PageCollection: Collection = {
     router: () => "/",
   },
   fields: [
+   
     {
       type: "string",
       name: "header",
       label: "Header",
     },
+
     {
-      type: "object",
-      name: "logo",
-      label: "Logo",
-      fields: [
-        { type: "image", name: "url", label: "URL" },
-        { type: "string", name: "alt", label: "Alt Text" },
-      ],
+      type: 'rich-text',
+      label: 'Post Body',
+      name: 'body',
+      isBody: true,
     },
+   
     {
       type: "object",
       list: true,

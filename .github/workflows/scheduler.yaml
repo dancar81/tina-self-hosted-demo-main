@@ -1,0 +1,22 @@
+name: Merge Schedule
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+  schedule:
+    # Check every hour.
+    - cron: 0 * * * *
+
+jobs:
+  merge_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gr2m/merge-schedule-action@v1
+        with:
+          merge_method: merge
+          #  Time zone to use. Default is UTC.
+          time_zone: "America/New_York"
+        env:
+          GITHUB_TOKEN: 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
