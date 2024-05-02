@@ -20,7 +20,7 @@
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "@tinacms/cli": "^1.5.42",
+    "@tinacms/cli": "^1.5.45",
     "@tinacms/datalayer": "^1.2.33",
     "@upstash/redis": "^1.28.4",
     "mongodb-level": "^0.0.4",
